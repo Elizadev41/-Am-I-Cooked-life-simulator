@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffd6e7;
+    color: #4a1028;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7a2446;
+}
+
+.card {
+    background: #f8bedf;
+    border: 1px solid #4a1028;
+    padding: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.card p {
+    color: #5c1833;
+}
+
+.result-card {
+  background: #edadd8;
+  border: 1px solid #4a1028;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#scenarioText,
+#resultText {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #4a1028;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #4a1028;
+  color: white;
+}
+
+#scenarioBtn {
+  background: #F977A2;
+  color: #4a1028;
+}
+
+#cookBtn {
+  background: #ff5c9b;
+  color: #4a1028;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
