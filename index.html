@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Am I Cooked?</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Am I Cooked?</h1>
-        <p class="subtitle">
+  <div class="container">
+    <h1>Am I Cooked?</h1>
+    <p class="subtitle">
       Random life disasters. Find out if you're finished.
     </p>
 
     <div class="card">
       <h2>Scenario</h2>
+      <p id="progressText">Scenario 0 of 15</p>
       <p id="scenarioText">
         Press the button to ruin your day.
       </p>
 
-      <button id="scenarioBtn">
-        Give Me A Scenario
-      </button>
+      <div id="choices"></div>
 
-      <button id="cookBtn">
-        Am I Cooked?
+      <button id="scenarioBtn">
+        Start Game
       </button>
     </div>
 
