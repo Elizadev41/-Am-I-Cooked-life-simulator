@@ -78,10 +78,6 @@ button:hover {
   color: #4a1028;
 }
 
-#cookBtn {
-  background: #ff5c9b;
-  color: #4a1028;
-}
 
 @media (max-width: 600px) {
   h1 {
